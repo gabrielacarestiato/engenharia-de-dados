@@ -15,4 +15,4 @@ O objetivo é entender como as lesões afetam o desempenho dos atletas e identif
 7. Existe relação entre o tipo de lesão e o tempo de retorno?
 
 _Observação:_
-Nem todas as perguntas serão respondidas.
+_Nem todas as perguntas serão respondidas._
