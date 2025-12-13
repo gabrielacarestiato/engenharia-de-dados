@@ -11,7 +11,7 @@ A proposta do trabalho consiste em construir uma pipeline de dados completa, que
 ### Perguntas a serem respondidas:
 1. Qual a frequência de lesões por temporada e por time?
 2. Quais posições apresentam maior incidência de lesões?
-3. Existe relação entre idade e ocorrência de lesão?
+3. Existe relação entre idade e duração da lesão?
 4. Jogadores com maior rating FIFA sofrem mais ou menos lesões?
 5. Qual o tempo médio de recuperação dos jogadores lesionados?
 6. Quais times apresentam maior número de jogadores lesionados?
