@@ -17,5 +17,4 @@ A proposta do trabalho consiste em construir uma pipeline de dados completa, que
 6. Quais times apresentam maior número de jogadores lesionados?
 7. Existe relação entre o tipo de lesão e o tempo de retorno?
 
-_Observação:_
-_Nem todas as perguntas serão respondidas._
+bjetivo (1,0 pt). O objetivo do trabalho deve ser muito bem detalhado; é um planejamento do trabalho, contendo de forma clara e objetiva o problema a ser resolvido e as perguntas de negócio a serem respondidas. Será avaliada a qualidade desta descrição.
