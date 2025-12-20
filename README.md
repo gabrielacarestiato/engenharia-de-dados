@@ -6,10 +6,10 @@ O objetivo deste trabalho é analisar o impacto das lesões nos jogadores de oit
 
 Para isso, será construída uma pipeline completa de dados, contemplando as etapas de:
 
-* Ingestão e coleta dos dados brutos;
-** Modelagem dos dados de forma adequada para análise;
-* Transformações e tratamento das informações;
-* Carga dos dados em um ambiente analítico em nuvem.
+* Ingestão e coleta dos dados brutos
+* Modelagem dos dados de forma adequada para análise
+* Transformações e tratamento das informações
+* Carga dos dados em um ambiente analítico em nuvem
 
 Ao final da pipeline, será realizada uma análise exploratória e analítica com o objetivo de responder às perguntas de negócio.
 
