@@ -23,4 +23,4 @@ Ao final da pipeline, será realizada uma análise exploratória e analítica co
 7. Existe relação entre o tipo de lesão e o tempo de retorno?
 
 ## Coleta
-https://www.kaggle.com/datasets/amritbiswas007/player-injuries-and-team-performance-dataset
+Os dados utilizados neste projeto foram obtidos a partir do dataset “Player Injuries and Team Performance Dataset”, disponível na plataforma [Kaggle](https://www.kaggle.com/datasets/amritbiswas007/player-injuries-and-team-performance-dataset). O dataset é fornecido em formato CSV e contém informações sobre lesões de jogadores da Premier League entre os anos de 2019 e 2023. O arquivo CSV foi armazenado inicialmente no repositório GitHub, na pasta `dataset`, e posteriormente carregado para o ambiente Databricks, onde foi persistido na camada Bronze do Data Lake, garantindo reprodutibilidade e rastreabilidade dos dados brutos.
