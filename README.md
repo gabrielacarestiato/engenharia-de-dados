@@ -75,7 +75,7 @@ A camada Gold é responsável por armazenar dados agregados e analíticos, deriv
 
 Todas as tabelas da camada Gold foram persistidas no Databricks em formato Delta Table, garantindo consistência, reprodutibilidade e facilidade de consumo para análises posteriores.
 
-#### Data Lineage
+### Data Lineage
 A linhagem dos dados segue o fluxo abaixo:
 
 1. **Fonte dos dados**
