@@ -302,5 +302,35 @@ O gráfico de barras ilustra a relação entre faixa etária e a duração médi
 
 * Implicações para gestão esportiva: Os resultados reforçam a importância de estratégias diferenciadas de prevenção e recuperação de lesões por faixa etária, especialmente para atletas mais experientes.
 
+**4. Frequência de lesões por faixa de rating FIFA**
+
+* Tabela de Resultados
+  
+A tabela abaixo apresenta a quantidade de lesões registradas de acordo com a faixa de rating FIFA dos jogadores.
+
+| Faixa de Rating FIFA | Nº de Lesões |
+|----------------------|--------------|
+| 76–80                | 310          |
+| 81–85                | 167          |
+| ≤ 75                 | 148          |
+| > 85                 | 28           |
+
+* Análise do Gráfico
+  
+O gráfico de rosca representa o percentual de lesões por faixa de rating FIFA, permitindo avaliar a distribuição relativa das lesões entre diferentes níveis de desempenho dos jogadores.
+
+<img width="1241" height="375" alt="image" src="https://github.com/user-attachments/assets/3eecca87-b2d1-4094-9b30-95baee54d031" />
+
+**Pontos relevantes observados**
+
+* Maior concentração entre ratings intermediários (76–80): Esta faixa concentra quase metade das lesões observadas, indicando que jogadores de nível intermediário-alto são os mais expostos a lesões.
+
+* Redução progressiva em ratings mais altos: Jogadores com rating entre 81–85 apresentam menos lesões, e aqueles com rating superior a 85 representam a menor parcela do total.
+
+* Possível efeito de gestão física: Atletas de maior rating tendem a ter melhor acompanhamento médico, controle de carga e estratégias de preservação física, o que pode contribuir para a menor incidência de lesões.
+
+* Impacto do volume de jogadores: A maior frequência nas faixas intermediárias também pode estar relacionada ao maior número de jogadores nessas categorias em comparação com atletas de elite (>85).
+
+* Implicações analíticas: Os resultados sugerem que maior rating FIFA não está associado a maior incidência de lesões, contrariando a hipótese de que jogadores mais exigidos fisicamente se lesionam com m
 
 
