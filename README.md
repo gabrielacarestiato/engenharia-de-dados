@@ -109,4 +109,14 @@ Criação de tabelas agregadas e analíticas, orientadas às perguntas de negóc
 ------------------------------------
 
 ## Carga
+A carga dos dados foi realizada no ambiente Databricks por meio de pipelines de ETL implementadas em PySpark, organizadas em notebooks distintos para cada camada do Data Lake (Bronze, Silver e Gold). Essa separação garante clareza no fluxo de dados, reprodutibilidade e facilidade de manutenção da solução.
 
+O pipeline inicia com a ingestão do dataset original em formato CSV, armazenado no repositório GitHub do projeto, que é carregado e persistido na camada Bronze em formato Delta Table. Em seguida, os dados são transformados e tratados na camada Silver, onde são aplicadas regras de limpeza, padronização e criação de métricas derivadas.
+
+Por fim, a carga na camada Gold consiste na geração de tabelas analíticas agregadas, diretamente alinhadas às perguntas de negócio propostas. Cada tabela Gold é persistida como Delta Table no Databricks, garantindo consistência, versionamento e confiabilidade no consumo analítico.
+
+Todas as etapas de carga utilizam operações nativas do Spark (write.format("delta").saveAsTable), assegurando escalabilidade e correta persistência dos dados no ambiente de nuvem.
+
+------------------------------------
+
+## Análise
