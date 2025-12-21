@@ -391,3 +391,40 @@ O gráfico de barras permite comparar de forma direta a quantidade de jogadores 
 * Menor impacto em Brentford e Tottenham: Brentford (22) e Tottenham (21) registram os menores números, o que pode indicar maior eficiência em prevenção de lesões, melhor gestão física ou menor profundidade de elenco utilizada.
 
 * Complementaridade com análises anteriores: Este resultado reforça as análises das questões anteriores, mostrando que clubes com alta frequência de lesões por temporada também tendem a apresentar um número elevado de jogadores afetados ao longo dos anos.
+
+**7. Relação entre tipo de lesão e tempo médio de retorno**
+
+* Tabela de Resultados
+* 
+A tabela abaixo apresenta os 10 tipos de lesão com maior tempo médio de retorno, considerando o período analisado. Os valores representam a média de dias necessários para que o jogador retornasse às atividades após a lesão.
+
+| Tipo de Lesão                                                                 | Tempo Médio de Retorno (dias) |
+|-------------------------------------------------------------------------------|-------------------------------|
+| Hamstring injury, archilles tendon rupture and inner ligament injury          | 682,0                         |
+| Cruciate ligament injury                                                       | 311,0                         |
+| Cruciate ligament tear                                                         | 271,7                         |
+| Broken ankle                                                                   | 258,0                         |
+| Cruciate ligament surgery                                                      | 247,5                         |
+| Achilles tendon rupture                                                        | 213,0                         |
+| Appendectomy and calf injury                                                   | 209,0                         |
+| Broken nose and knee injury                                                    | 157,0                         |
+| Inflammation bone                                                             | 145,0                         |
+| Knee surgery                                                                  | 138,9                         |
+
+* Análise do Gráfico
+  
+O gráfico evidencia grandes diferenças no tempo médio de recuperação entre os tipos de lesão, destacando principalmente aquelas que envolvem ligamentos, cirurgias ou múltiplas ocorrências simultâneas.
+
+<img width="952" height="375" alt="image" src="https://github.com/user-attachments/assets/1caad2cc-7714-401f-8c44-e14e6269d4b8" />
+
+**Pontos relevantes observados**
+
+* Lesões múltiplas apresentam maior impacto: A combinação de lesões musculares e ligamentares (hamstring, tendão de Aquiles e ligamento interno) apresenta o maior tempo médio de retorno (682 dias), evidenciando o alto impacto de lesões simultâneas na disponibilidade do atleta.
+
+* Gravidade das lesões ligamentares: Lesões e cirurgias no ligamento cruzado (cruciate ligament injury, tear e surgery) aparecem consistentemente entre os maiores tempos de recuperação, reforçando seu caráter severo e de longo prazo.
+
+* Impacto de fraturas: Lesões como fratura de tornozelo (broken ankle) também apresentam tempos elevados de retorno, comparáveis aos de lesões ligamentares graves.
+
+* Cirurgias aumentam o tempo de afastamento: Procedimentos cirúrgicos, como cirurgia no joelho e apendicectomia combinada com lesão muscular, resultam em períodos de recuperação significativamente maiores.
+
+* Implicações para gestão de elenco: O conhecimento dos tipos de lesão associados a maiores tempos de retorno é essencial para o planejamento do elenco, definição de estratégias de rotação e tomada de decisão em contratações e renovações contratuais.
