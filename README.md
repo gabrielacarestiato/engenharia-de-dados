@@ -30,7 +30,7 @@ Ao final da pipeline, será realizada uma análise exploratória e analítica co
 Os dados utilizados neste projeto foram obtidos a partir do dataset “Player Injuries and Team Performance Dataset”, disponível na plataforma [Kaggle](https://www.kaggle.com/datasets/amritbiswas007/player-injuries-and-team-performance-dataset). O dataset é fornecido em formato CSV e contém informações sobre lesões de jogadores da Premier League entre os anos de 2019 e 2023. O arquivo CSV foi armazenado inicialmente no repositório GitHub, na pasta `dataset`, e posteriormente carregado para o ambiente Databricks, onde foi persistido na camada Bronze do Data Lake, garantindo reprodutibilidade e rastreabilidade dos dados brutos.
 
 ## Modelagem
-O projeto adota uma arquitetura de dados baseada nas camadas Bronze, Silver e Gold, seguindo boas práticas de Engenharia de Dados em ambientes de Data Lake.
+O projeto adota uma arquitetura de dados baseada nas camadas Bronze, Silver e Gold, seguindo boas práticas de Engenharia de Dados em ambientes de Data Lake. Além disso, ele utiliza um modelo de dados analítico flat, típico de arquiteturas de Data Lake, onde cada tabela representa um conceito de negócio específico, com granularidade adequada ao tipo de análise realizada. Não foi adotado um Esquema Estrela tradicional, pois o objetivo do projeto é responder perguntas analíticas pontuais a partir de dados agregados, priorizando simplicidade, performance e flexibilidade analítica. A camada Silver representa o nível de maior granularidade (evento de lesão por jogador), enquanto a camada Gold contém visões agregadas derivadas desse nível base.
 
 ### Qualidade da Modelagem
 
@@ -74,6 +74,21 @@ A camada Gold é responsável por armazenar dados agregados e analíticos, deriv
 | `gold.pergunta7` | Relação entre tipo de lesão e tempo médio de retorno (Top 10) | Existe relação entre o tipo de lesão e o tempo de retorno?   |
 
 Todas as tabelas da camada Gold foram persistidas no Databricks em formato Delta Table, garantindo consistência, reprodutibilidade e facilidade de consumo para análises posteriores.
+
+#### Data Lineage
+A linhagem dos dados segue o fluxo abaixo:
+
+1. **Fonte dos dados**
+Dataset público “Player Injuries and Team Performance Dataset”, disponibilizado na plataforma Kaggle, em formato CSV.
+
+2. **Camada Bronze**
+Ingestão direta dos arquivos CSV no Databricks, preservando o conteúdo original, com mínimas padronizações de nomenclatura.
+
+3. **Camada Silver**
+Aplicação de regras de limpeza, padronização, correção de inconsistências e criação de métricas derivadas, resultando em um dataset confiável para análise.
+
+4. **Camada Gold**
+Criação de tabelas agregadas e analíticas, orientadas às perguntas de negócio, prontas para consumo em dashboards e análises exploratórias.
 
 ### Catálogo de Dados (Camada de Bronze)
 <img width="1142" height="537" alt="image" src="https://github.com/user-attachments/assets/50d6aee8-ded1-4dbb-b58d-bd325196f38c" />
