@@ -60,7 +60,20 @@ A camada Silver contém os dados tratados e modelados para análise. Nessa etapa
 Essa camada serve como base para as análises exploratórias e para a resposta às perguntas de negócio propostas.
 
 #### Camada Gold - `gold.premierleague`
-A camada Gold será responsável por armazenar dados agregados e analíticos, derivados da camada Silver, com foco nas respostas às perguntas de negócio.
+A camada Gold é responsável por armazenar dados agregados e analíticos, derivados da camada Silver, com foco direto na resposta às perguntas de negócio definidas no objetivo do projeto. Cada tabela dessa camada representa uma métrica consolidada, pronta para consumo analítico e visualizações.
+
+**Tabelas criadas**
+| Tabela           | Descrição                                                     | Pergunta de negócio                                          |
+| ---------------- | ------------------------------------------------------------- | ------------------------------------------------------------ |
+| `gold.pergunta1` | Frequência de lesões por temporada e por time                 | Qual a frequência de lesões por temporada e por time?        |
+| `gold.pergunta2` | Incidência de lesões por posição                              | Quais posições apresentam maior incidência de lesões?        |
+| `gold.pergunta3` | Duração média da lesão por faixa etária                       | Existe relação entre idade e duração da lesão?               |
+| `gold.pergunta4` | Frequência de lesões por faixa de rating FIFA                 | Jogadores com maior rating FIFA sofrem mais ou menos lesões? |
+| `gold.pergunta5` | Tempo médio geral de recuperação                              | Qual o tempo médio de recuperação dos jogadores lesionados?  |
+| `gold.pergunta6` | Número de jogadores lesionados por time                       | Quais times apresentam maior número de jogadores lesionados? |
+| `gold.pergunta7` | Relação entre tipo de lesão e tempo médio de retorno (Top 10) | Existe relação entre o tipo de lesão e o tempo de retorno?   |
+
+Todas as tabelas da camada Gold foram persistidas no Databricks em formato Delta Table, garantindo consistência, reprodutibilidade e facilidade de consumo para análises posteriores.
 
 ### Catálogo de Dados (Camada de Bronze)
 <img width="1142" height="537" alt="image" src="https://github.com/user-attachments/assets/50d6aee8-ded1-4dbb-b58d-bd325196f38c" />
