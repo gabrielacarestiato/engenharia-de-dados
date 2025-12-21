@@ -331,9 +331,9 @@ O gráfico de rosca representa o percentual de lesões por faixa de rating FIFA,
 
 * Impacto do volume de jogadores: A maior frequência nas faixas intermediárias também pode estar relacionada ao maior número de jogadores nessas categorias em comparação com atletas de elite (>85).
 
-* Implicações analíticas: Os resultados sugerem que maior rating FIFA não está associado a maior incidência de lesões, contrariando a hipótese de que jogadores mais exigidos fisicamente se lesionam com m
+* Implicações analíticas: Os resultados sugerem que maior rating FIFA não está associado a maior incidência de lesões, contrariando a hipótese de que jogadores mais exigidos fisicamente se lesionam com mais frequência.
 
-**5. Tempo médio geral de recuperação**
+**5. Tempo médio de recuperação**
 
 * Tabela de Resultados
   
@@ -357,3 +357,37 @@ O valor médio de aproximadamente **46 dias** indica que, de forma geral, as les
 
 * Base para análises complementares: O tempo médio geral serve como referência para comparações com recortes mais específicos, como faixas etárias, tipo de lesão e rating FIFA, explorados nas demais questões do projeto.
 
+**6. Número de jogadores lesionados por time**
+
+* Tabela de Resultados
+
+A tabela abaixo apresenta a quantidade de jogadores distintos que sofreram ao menos uma lesão no período analisado, agrupados por time.
+
+| Time         | Nº de Jogadores Lesionados |
+|--------------|----------------------------|
+| Everton      | 35                         |
+| Arsenal      | 33                         |
+| Newcastle    | 33                         |
+| Aston Villa  | 31                         |
+| Burnley      | 29                         |
+| Man United   | 28                         |
+| Brentford    | 22                         |
+| Tottenham    | 21                         |
+
+* Análise do Gráfico
+
+O gráfico de barras permite comparar de forma direta a quantidade de jogadores lesionados em cada clube, evidenciando diferenças relevantes na distribuição das lesões entre os times.
+
+<img width="1310" height="375" alt="image" src="https://github.com/user-attachments/assets/b9a56ce8-232e-4daf-ac12-3658b70dc3c7" />
+
+**Pontos relevantes observados**
+
+* Everton como destaque negativo: O Everton apresenta o maior número de jogadores lesionados (35), indicando um impacto mais amplo das lesões sobre o elenco ao longo do período analisado.
+
+* Alta concentração em clubes específicos: Arsenal e Newcastle aparecem logo em seguida, ambos com 33 jogadores lesionados, sugerindo que as lesões afetaram uma parcela significativa de seus elencos.
+
+* Distribuição relativamente homogênea no topo: Os cinco primeiros clubes apresentam valores próximos, variando entre 29 e 35 jogadores, o que indica que o problema das lesões é recorrente e não restrito a um único time.
+
+* Menor impacto em Brentford e Tottenham: Brentford (22) e Tottenham (21) registram os menores números, o que pode indicar maior eficiência em prevenção de lesões, melhor gestão física ou menor profundidade de elenco utilizada.
+
+* Complementaridade com análises anteriores: Este resultado reforça as análises das questões anteriores, mostrando que clubes com alta frequência de lesões por temporada também tendem a apresentar um número elevado de jogadores afetados ao longo dos anos.
