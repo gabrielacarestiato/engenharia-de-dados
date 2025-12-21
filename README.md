@@ -271,3 +271,36 @@ O gráfico de barras apresenta a distribuição do número de lesões por posiç
 
 * Implicações para gestão esportiva: Os resultados indicam a necessidade de maior atenção na prevenção de lesões em posições centrais do campo, com foco em estratégias de rotação, monitoramento de carga física e programas de recuperação adequados.
 
+**3. Média de duração das lesões por faixa etária**
+
+* Tabela de Resultados
+
+A tabela abaixo apresenta a duração média das lesões (em dias) de acordo com a faixa etária dos jogadores.
+
+| Faixa Etária | Duração Média (dias) |
+|---------------|---------------------|
+| 18–24         | 51,23               |
+| 25–28         | 41,48               |
+| 29–32         | 46,27               |
+| 33–40         | 58,20               |
+
+* Análise do Gráfico
+
+O gráfico de barras ilustra a relação entre faixa etária e a duração média das lesões, permitindo identificar diferenças no tempo de recuperação entre grupos etários.
+
+<img width="1310" height="375" alt="image" src="https://github.com/user-attachments/assets/54b9dced-fc7e-407b-ab1b-04b7cee23df2" />
+
+**Pontos relevantes observados**
+
+* Jogadores mais jovens (18–24): Apresentam uma duração média relativamente elevada de lesões, possivelmente associada a processos de adaptação física, intensidade elevada de jogo e menor histórico de controle de carga.
+
+* Faixa etária de 25–28 anos: Registra o menor tempo médio de recuperação, sugerindo um equilíbrio entre maturidade física, desempenho atlético e capacidade de recuperação.
+
+* Aumento gradual a partir dos 29 anos: A duração média das lesões volta a crescer na faixa de 29–32 anos, indicando possíveis efeitos cumulativos de desgaste físico ao longo da carreira.
+
+* Maior impacto em jogadores veteranos (33–40): Esta faixa apresenta a maior duração média de lesões, refletindo processos naturais de envelhecimento, maior tempo de recuperação muscular e maior risco de lesões recorrentes.
+
+* Implicações para gestão esportiva: Os resultados reforçam a importância de estratégias diferenciadas de prevenção e recuperação de lesões por faixa etária, especialmente para atletas mais experientes.
+
+
+
