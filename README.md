@@ -100,6 +100,7 @@ Criação de tabelas agregadas e analíticas, orientadas às perguntas de negóc
 <img width="1143" height="50" alt="image" src="https://github.com/user-attachments/assets/072369cf-53bf-4a15-a642-2211c7360550" />
 
 ### Catálogo de Dados (Camada de Prata)
-<img width="813" height="367" alt="image" src="https://github.com/user-attachments/assets/e814a297-f1a5-4216-9972-3c8649c2f70a" />
+<img width="905" height="525" alt="image" src="https://github.com/user-attachments/assets/8e255463-c287-4f68-adb0-42eaf728fe2c" />
+
 
 
