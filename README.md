@@ -39,5 +39,5 @@ quais chaves, tipos e granularidade
 <img width="1143" height="50" alt="image" src="https://github.com/user-attachments/assets/072369cf-53bf-4a15-a642-2211c7360550" />
 
 ### Catálogo de Dados (Camada de Prata)
-
+<img width="916" height="370" alt="image" src="https://github.com/user-attachments/assets/b7d8b249-57f1-4135-8172-58e4fdb2c00f" />
 
