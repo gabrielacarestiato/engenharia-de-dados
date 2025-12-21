@@ -174,6 +174,7 @@ A análise dos tipos de lesão mostra que certas lesões apresentam tempos médi
 **1. Frequência de lesões por temporada e time**
 
 * Tabela de Resultados
+  
 A tabela abaixo apresenta a quantidade de lesões registradas por time em cada temporada analisada, entre 2019/20 e 2023/24.
 
 | Temporada | Time        | Nº de Lesões |
@@ -216,6 +217,7 @@ A tabela abaixo apresenta a quantidade de lesões registradas por time em cada t
 | 2023/24   | Tottenham   | 6            |
 
 * Análise do Gráfico
+  
 O gráfico de linhas ilustra a evolução do número de lesões por time ao longo das temporadas, permitindo identificar padrões temporais e diferenças entre os clubes.
 
 <img width="1222" height="375" alt="image" src="https://github.com/user-attachments/assets/f20324eb-7ac7-44a5-b562-18442f696bbe" />
@@ -233,6 +235,7 @@ O gráfico de linhas ilustra a evolução do número de lesões por time ao long
 **2. Incidência de lesões por posição**
 
 * Tabela de Resultados
+  
 A tabela abaixo apresenta o número total de lesões registradas por posição dos jogadores ao longo do período analisado.
 
 | Posição              | Nº de Lesões |
@@ -251,6 +254,7 @@ A tabela abaixo apresenta o número total de lesões registradas por posição d
 | Right Midfielder     | 3            |
 
 * Análise do Gráfico
+  
 O gráfico de barras apresenta a distribuição do número de lesões por posição, permitindo identificar quais funções em campo estão mais expostas a ocorrências de lesão.
 
 <img width="1310" height="375" alt="image" src="https://github.com/user-attachments/assets/35946dd9-342b-4b57-9958-55f64ddf67c0" />
