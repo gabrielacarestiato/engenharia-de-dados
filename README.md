@@ -30,20 +30,37 @@ Ao final da pipeline, será realizada uma análise exploratória e analítica co
 Os dados utilizados neste projeto foram obtidos a partir do dataset “Player Injuries and Team Performance Dataset”, disponível na plataforma [Kaggle](https://www.kaggle.com/datasets/amritbiswas007/player-injuries-and-team-performance-dataset). O dataset é fornecido em formato CSV e contém informações sobre lesões de jogadores da Premier League entre os anos de 2019 e 2023. O arquivo CSV foi armazenado inicialmente no repositório GitHub, na pasta `dataset`, e posteriormente carregado para o ambiente Databricks, onde foi persistido na camada Bronze do Data Lake, garantindo reprodutibilidade e rastreabilidade dos dados brutos.
 
 ## Modelagem
+O projeto adota uma arquitetura de dados baseada nas camadas Bronze, Silver e Gold, seguindo boas práticas de Engenharia de Dados em ambientes de Data Lake.
 
 ### Qualidade da Modelagem
 
-#### Camada Bronze — bronze.premierleague
-A camada Bronze armazena os dados brutos ingeridos diretamente do dataset original, mantendo a estrutura próxima à fonte e preservando todas as colunas disponíveis, com mínimas padronizações de nomenclatura.
+#### Camada Bronze - `bronze.premierleague`
+A camada Bronze armazena os dados brutos ingeridos diretamente do dataset original em formato CSV, mantendo a estrutura próxima à fonte e preservando todas as colunas disponíveis. Nessa etapa, foram realizadas apenas padronizações básicas de nomenclatura das colunas, sem exclusão de registros ou transformações semânticas, garantindo a rastreabilidade e a possibilidade de reprocessamento dos dados.
 
-Papel da Bronze
+**Papel da Bronze**
 * Armazenar dados brutos
 * Manter fidelidade à fonte
 * Servir como histórico e reprocessamento
+* Persistência em formato Delta Table no Databricks
 
-quais tabelas existem
-o que muda da bronze → prata → ouro
-quais chaves, tipos e granularidade
+#### Camada Silver - `silver.premierleague`
+A camada Silver contém os dados tratados e modelados para análise. Nessa etapa, foram selecionadas apenas as colunas relevantes para o problema de negócio, além da aplicação de transformações e padronizações que garantem maior qualidade e consistência dos dados.
+
+**Papel da Silver**
+* Disponibilizar dados tratados, padronizados e confiáveis para análises e agregações
+ 
+**Principais transformações**
+* Redução de 42 colunas para 8 colunas analíticas
+* Conversão de datas inconsistentes
+* Remoção de registros com retorno "present"
+* Correção de erros de digitação em datas (0202 → 2020)
+* Criação da métrica: `duração_dias = dt_retorno - dt_lesão`
+* Padronização textual: `posição` e `lesão`
+
+Essa camada serve como base para as análises exploratórias e para a resposta às perguntas de negócio propostas.
+
+#### Camada Gold - `gold.premierleague`
+A camada Gold será responsável por armazenar dados agregados e analíticos, derivados da camada Silver, com foco nas respostas às perguntas de negócio.
 
 ### Catálogo de Dados (Camada de Bronze)
 <img width="1142" height="537" alt="image" src="https://github.com/user-attachments/assets/50d6aee8-ded1-4dbb-b58d-bd325196f38c" />
