@@ -120,3 +120,20 @@ Todas as etapas de carga utilizam operações nativas do Spark `(write.format("d
 ------------------------------------
 
 ## Análise
+Esta etapa tem como objetivo avaliar a qualidade dos dados utilizados e analisar os resultados obtidos a partir das tabelas analíticas da camada Gold, verificando se as perguntas de negócio propostas foram corretamente respondidas e discutindo os principais padrões observados.
+
+### Análise da Qualidade dos Dados
+A qualidade dos dados foi avaliada principalmente na camada Silver, que representa o nível mais granular do modelo (evento de lesão por jogador). Durante essa etapa, foram realizadas verificações de consistência, completude e coerência semântica dos dados.
+
+**Principais pontos observados**
+* Valores ausentes: foram identificados valores inconsistentes nas colunas de data, especialmente na data de retorno, contendo o valor textual `"present"`. Esses registros foram removidos, pois inviabilizavam o cálculo da duração da lesão.
+
+* Padronização de datas: o dataset apresentava múltiplos formatos de data, além de erros de digitação no ano (ex.: `0202`). Essas inconsistências foram tratadas e normalizadas para o tipo `date`.
+
+* Coerência temporal: foram identificados casos em que a data de retorno era anterior à data da lesão. Para esses casos, foi aplicada uma correção lógica, somando um ano à data de retorno, garantindo coerência temporal.
+
+* Domínios categóricos: as colunas categóricas (posição e lesão) foram padronizadas (remoção de espaços extras e normalização para minúsculas), reduzindo duplicidades semânticas.
+
+* Faixas esperadas: os valores numéricos ficaram dentro dos limites esperados, como idade entre 18 e 39 anos, rating FIFA entre 66 e 90 e duração de lesão positiva.
+
+Após essas etapas, o dataset apresentou boa qualidade para análise, com dados consistentes, padronizados e adequados para agregações analíticas.
