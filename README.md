@@ -56,7 +56,7 @@ A camada Silver contém os dados tratados e modelados para análise. Nessa etapa
 **Principais transformações**
 * Redução de 42 colunas para 8 colunas analíticas
 * Conversão de datas inconsistentes
-* Remoção de registros com retorno "present"
+* Remoção de registros com retorno `"present"`
 * Correção de erros de digitação em datas (0202 → 2020)
 * Criação da métrica: `duração_dias = dt_retorno - dt_lesão`
 * Padronização textual: `posição` e `lesão`
@@ -137,3 +137,27 @@ A qualidade dos dados foi avaliada principalmente na camada Silver, que represen
 * Faixas esperadas: os valores numéricos ficaram dentro dos limites esperados, como idade entre 18 e 39 anos, rating FIFA entre 66 e 90 e duração de lesão positiva.
 
 Após essas etapas, o dataset apresentou boa qualidade para análise, com dados consistentes, padronizados e adequados para agregações analíticas.
+
+### Análise da Solução do Problema
+As tabelas da camada Gold permitiram responder corretamente todas as perguntas de negócio propostas no objetivo do projeto:
+
+**1. Frequência de lesões por temporada e time**
+A análise mostra variações claras na quantidade de lesões ao longo das temporadas e entre os clubes, indicando possíveis diferenças na intensidade de jogos, profundidade do elenco ou políticas de preparação física.
+
+**2. Incidência de lesões por posição**
+Observa-se que determinadas posições apresentam maior incidência de lesões, especialmente posições com maior exigência física, como defensores e meio-campistas, o que está alinhado com o conhecimento do domínio do futebol.
+
+**3. Relação entre idade e duração da lesão**
+A segmentação por faixa etária indica que jogadores mais velhos tendem a apresentar maior tempo médio de recuperação, sugerindo que a idade pode influenciar diretamente na duração das lesões.
+
+**4. Lesões por faixa de rating FIFA**
+A análise por faixa de rating mostra que jogadores com diferentes níveis de performance sofrem lesões em frequências distintas, permitindo avaliar se atletas mais valorizados estão mais expostos ou preservados.
+
+**5. Tempo médio de recuperação**
+O cálculo do tempo médio geral de recuperação fornece uma visão consolidada do impacto das lesões na disponibilidade dos jogadores.
+
+**6. Times com maior número de jogadores lesionados**
+Alguns clubes concentram um maior número de jogadores lesionados, o que pode indicar diferenças em calendário, elenco ou estratégias de gestão física.
+
+**7. Relação entre tipo de lesão e tempo de retorno**
+A análise dos tipos de lesão mostra que certas lesões apresentam tempos médios de recuperação significativamente maiores, reforçando a importância de distinguir o impacto de cada tipo de lesão.
