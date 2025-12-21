@@ -333,4 +333,27 @@ O gráfico de rosca representa o percentual de lesões por faixa de rating FIFA,
 
 * Implicações analíticas: Os resultados sugerem que maior rating FIFA não está associado a maior incidência de lesões, contrariando a hipótese de que jogadores mais exigidos fisicamente se lesionam com m
 
+**5. Tempo médio geral de recuperação**
+
+* Tabela de Resultados
+  
+O tempo médio geral de recuperação dos jogadores lesionados, considerando todo o período analisado, é apresentado abaixo.
+
+| Métrica                         | Valor (dias) |
+|--------------------------------|--------------|
+| Tempo médio de recuperação     | 46,42        |
+
+* Análise do Resultado
+  
+O valor médio de aproximadamente **46 dias** indica que, de forma geral, as lesões analisadas resultam em afastamentos superiores a um mês e meio, o que pode gerar impactos relevantes no desempenho esportivo das equipes ao longo das temporadas.
+
+**Pontos relevantes observados**
+
+* Impacto competitivo: Um tempo médio de recuperação elevado implica maior necessidade de rotação de elenco, utilização de reservas e possíveis perdas técnicas durante a temporada.
+
+* Variabilidade não capturada pela média: Embora o valor médio seja de 46 dias, existem lesões de curta duração e outras significativamente mais longas, o que reforça a importância de análises segmentadas por tipo de lesão, posição e idade.
+
+* Relevância para gestão esportiva:Esse indicador é fundamental para decisões estratégicas relacionadas à prevenção de lesões, planejamento físico e investimento em infraestrutura médica.
+
+* Base para análises complementares: O tempo médio geral serve como referência para comparações com recortes mais específicos, como faixas etárias, tipo de lesão e rating FIFA, explorados nas demais questões do projeto.
 
