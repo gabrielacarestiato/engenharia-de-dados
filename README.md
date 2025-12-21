@@ -142,29 +142,37 @@ Após essas etapas, o dataset apresentou boa qualidade para análise, com dados 
 As tabelas da camada Gold permitiram responder corretamente todas as perguntas de negócio propostas no objetivo do projeto:
 
 **1. Frequência de lesões por temporada e time**
+
 A análise mostra variações claras na quantidade de lesões ao longo das temporadas e entre os clubes, indicando possíveis diferenças na intensidade de jogos, profundidade do elenco ou políticas de preparação física.
 
 **2. Incidência de lesões por posição**
+
 Observa-se que determinadas posições apresentam maior incidência de lesões, especialmente posições com maior exigência física, como defensores e meio-campistas, o que está alinhado com o conhecimento do domínio do futebol.
 
 **3. Relação entre idade e duração da lesão**
+
 A segmentação por faixa etária indica que jogadores mais velhos tendem a apresentar maior tempo médio de recuperação, sugerindo que a idade pode influenciar diretamente na duração das lesões.
 
 **4. Lesões por faixa de rating FIFA**
+
 A análise por faixa de rating mostra que jogadores com diferentes níveis de performance sofrem lesões em frequências distintas, permitindo avaliar se atletas mais valorizados estão mais expostos ou preservados.
 
 **5. Tempo médio de recuperação**
+
 O cálculo do tempo médio geral de recuperação fornece uma visão consolidada do impacto das lesões na disponibilidade dos jogadores.
 
 **6. Times com maior número de jogadores lesionados**
+
 Alguns clubes concentram um maior número de jogadores lesionados, o que pode indicar diferenças em calendário, elenco ou estratégias de gestão física.
 
-**7. Relação entre tipo de lesão e tempo de retorno** 
+**7. Relação entre tipo de lesão e tempo de retorno**
+
 A análise dos tipos de lesão mostra que certas lesões apresentam tempos médios de recuperação significativamente maiores, reforçando a importância de distinguir o impacto de cada tipo de lesão.
 
 ### Discussão dos Resultados
 
 **1. Frequência de lesões por temporada e time**
+
 * Tabela de Resultados
 A tabela abaixo apresenta a quantidade de lesões registradas por time em cada temporada analisada, entre 2019/20 e 2023/24.
 
@@ -210,12 +218,52 @@ A tabela abaixo apresenta a quantidade de lesões registradas por time em cada t
 * Análise do Gráfico
 O gráfico de linhas ilustra a evolução do número de lesões por time ao longo das temporadas, permitindo identificar padrões temporais e diferenças entre os clubes.
 
+<img width="1222" height="375" alt="image" src="https://github.com/user-attachments/assets/f20324eb-7ac7-44a5-b562-18442f696bbe" />
+
 **Pontos relevantes observados**
 
 * Alta variabilidade entre clubes: Times como Everton, Newcastle e Manchester United apresentam picos elevados de lesões em determinadas temporadas, enquanto outros, como Aston Villa e Brentford, mantêm números relativamente mais baixos.
 * Picos específicos por temporada:
-** O Everton apresenta um pico significativo na temporada 2019/20.
-** O Manchester United registra um aumento expressivo em 2021/22, destacando-se como o time com maior número de lesões nessa temporada.
-** O Newcastle apresenta crescimento acentuado em 2023/24, atingindo o maior valor observado no período.
+- O Everton apresenta um pico significativo na temporada 2019/20.
+- O Manchester United registra um aumento expressivo em 2021/22, destacando-se como o time com maior número de lesões nessa temporada.
+- O Newcastle apresenta crescimento acentuado em 2023/24, atingindo o maior valor observado no período.
 * Tendências de queda: Alguns clubes, como Arsenal e Tottenham, apresentam redução no número de lesões ao longo das temporadas, sugerindo possíveis melhorias em gestão física, elenco ou estratégias de rotação.
 * Impacto de contexto competitivo: As oscilações ao longo do tempo podem estar relacionadas a fatores como calendário mais intenso, mudanças no elenco, estilo de jogo ou participação em competições paralelas.
+
+**2. Incidência de lesões por posição**
+
+* Tabela de Resultados
+A tabela abaixo apresenta o número total de lesões registradas por posição dos jogadores ao longo do período analisado.
+
+| Posição              | Nº de Lesões |
+|----------------------|--------------|
+| Center Back          | 124          |
+| Central Midfielder   | 113          |
+| Center Forward       | 98           |
+| Left Winger          | 60           |
+| Left Back            | 57           |
+| Defensive Midfielder | 55           |
+| Right Back           | 53           |
+| Right Winger         | 42           |
+| Attacking Midfielder | 24           |
+| Goalkeeper           | 20           |
+| Left Midfielder      | 4            |
+| Right Midfielder     | 3            |
+
+* Análise do Gráfico
+O gráfico de barras apresenta a distribuição do número de lesões por posição, permitindo identificar quais funções em campo estão mais expostas a ocorrências de lesão.
+
+<img width="1310" height="375" alt="image" src="https://github.com/user-attachments/assets/35946dd9-342b-4b57-9958-55f64ddf67c0" />
+
+**Pontos relevantes observados**
+
+* Maior incidência em posições defensivas centrais: As posições de Center Back e Central Midfielder apresentam o maior número de lesões, indicando maior exposição física devido a contato frequente, disputas aéreas e alta intensidade defensiva.
+
+* Alta carga em posições ofensivas-chave: O Center Forward também apresenta um número elevado de lesões, possivelmente associado a acelerações frequentes, mudanças bruscas de direção e contato físico constante com defensores.
+
+* Distribuição intermediária nas laterais: Laterais e pontas (Left/Right Back e Left/Right Winger) apresentam valores intermediários, refletindo a exigência física de percorrer grandes distâncias ao longo das partidas.
+
+* Baixa incidência em posições específicas: As posições de Goalkeeper, Left Midfielder e Right Midfielder apresentam os menores números de lesões, sugerindo menor exposição a choques frequentes ou menor volume de ações de alta intensidade.
+
+* Implicações para gestão esportiva: Os resultados indicam a necessidade de maior atenção na prevenção de lesões em posições centrais do campo, com foco em estratégias de rotação, monitoramento de carga física e programas de recuperação adequados.
+
