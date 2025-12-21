@@ -1,6 +1,9 @@
 # MVP de Engenharia de Dados
 Projeto da disciplina Engenharia de Dados da especialização online Pós-Graduação em Ciência de Dados e Analytics, do Departamento de Informática da PUC-Rio.
 
+Nome: Gabriela Padilha Carestiato Daniel
+Matrícula: 4052025000831
+
 ## Objetivo
 O objetivo deste trabalho é desenvolver um MVP de Engenharia de Dados para analisar o impacto das lesões em jogadores de oito clubes da Premier League, no período de 2019 a 2023, utilizando um ambiente de computação em nuvem, especificamente o Databricks. O problema a ser abordado consiste em compreender como as lesões afetam o desempenho e a disponibilidade dos atletas ao longo das temporadas, bem como identificar padrões que possam auxiliar os clubes na gestão de seus elencos e no planejamento físico dos jogadores. Para essa análise, são consideradas variáveis como: nome do jogador lesionado, clube ao qual pertencia no momento da lesão, posição em campo, idade do jogador no momento da lesão, temporada da ocorrência, rating FIFA correspondente à temporada, descrição da lesão sofrida, data da lesão e data de retorno às atividades.
 
