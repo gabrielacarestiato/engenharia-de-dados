@@ -79,15 +79,19 @@ Todas as tabelas da camada Gold foram persistidas no Databricks em formato Delta
 A linhagem dos dados segue o fluxo abaixo:
 
 1. **Fonte dos dados**
+
 Dataset público “Player Injuries and Team Performance Dataset”, disponibilizado na plataforma Kaggle, em formato CSV.
 
 2. **Camada Bronze**
+
 Ingestão direta dos arquivos CSV no Databricks, preservando o conteúdo original, com mínimas padronizações de nomenclatura.
 
 3. **Camada Silver**
+
 Aplicação de regras de limpeza, padronização, correção de inconsistências e criação de métricas derivadas, resultando em um dataset confiável para análise.
 
 4. **Camada Gold**
+
 Criação de tabelas agregadas e analíticas, orientadas às perguntas de negócio, prontas para consumo em dashboards e análises exploratórias.
 
 ### Catálogo de Dados (Camada de Bronze)
