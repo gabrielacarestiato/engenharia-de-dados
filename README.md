@@ -33,7 +33,7 @@ quais tabelas existem
 o que muda da bronze → prata → ouro
 quais chaves, tipos e granularidade
 
-### Catálogo de Dados (Camada de Bronze -- mvp.bronze.premierleague)
+### Catálogo de Dados (Camada de Bronze)
 <img width="1142" height="537" alt="image" src="https://github.com/user-attachments/assets/50d6aee8-ded1-4dbb-b58d-bd325196f38c" />
 <img width="1142" height="517" alt="image" src="https://github.com/user-attachments/assets/c03bb149-abb3-4f76-9874-03f21729b273" />
 <img width="1143" height="50" alt="image" src="https://github.com/user-attachments/assets/072369cf-53bf-4a15-a642-2211c7360550" />
