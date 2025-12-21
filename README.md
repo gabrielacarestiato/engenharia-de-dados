@@ -395,7 +395,7 @@ O gráfico de barras permite comparar de forma direta a quantidade de jogadores 
 **7. Relação entre tipo de lesão e tempo médio de retorno**
 
 * Tabela de Resultados
-* 
+  
 A tabela abaixo apresenta os 10 tipos de lesão com maior tempo médio de retorno, considerando o período analisado. Os valores representam a média de dias necessários para que o jogador retornasse às atividades após a lesão.
 
 | Tipo de Lesão                                                                 | Tempo Médio de Retorno (dias) |
@@ -428,3 +428,17 @@ O gráfico evidencia grandes diferenças no tempo médio de recuperação entre 
 * Cirurgias aumentam o tempo de afastamento: Procedimentos cirúrgicos, como cirurgia no joelho e apendicectomia combinada com lesão muscular, resultam em períodos de recuperação significativamente maiores.
 
 * Implicações para gestão de elenco: O conhecimento dos tipos de lesão associados a maiores tempos de retorno é essencial para o planejamento do elenco, definição de estratégias de rotação e tomada de decisão em contratações e renovações contratuais.
+
+------------------------------------
+
+## Autoavaliação
+
+O objetivo principal deste trabalho foi desenvolver um MVP de Engenharia de Dados capaz de analisar o impacto das lesões em jogadores da Premier League, por meio da construção de uma pipeline completa de dados em ambiente de nuvem (Databricks), utilizando boas práticas de ingestão, modelagem, transformação e carga.
+
+De forma geral, considera-se que os objetivos propostos no início do projeto foram **atingidos com sucesso**. A pipeline foi implementada seguindo a arquitetura em camadas (Bronze, Silver e Gold), garantindo rastreabilidade, organização e qualidade dos dados ao longo de todo o fluxo. As transformações aplicadas na camada Silver permitiram corrigir inconsistências, padronizar informações e criar métricas relevantes, enquanto a camada Gold disponibilizou visões agregadas diretamente alinhadas às perguntas de negócio definidas.
+
+As análises realizadas permitiram responder de maneira clara e objetiva todas as questões propostas, identificando padrões relevantes relacionados à frequência de lesões, posições mais afetadas, influência da idade, impacto do rating FIFA, tempo médio de recuperação e gravidade dos diferentes tipos de lesão. Os resultados obtidos demonstram a adequação da modelagem adotada e a consistência das transformações aplicadas.
+
+Como principal aprendizado, destaca-se a importância da qualidade dos dados e do planejamento da modelagem para viabilizar análises confiáveis. Como limitação, pode-se mencionar a utilização de apenas um dataset como fonte de dados, o que restringe análises mais avançadas relacionadas a desempenho esportivo ou carga de jogos. Ainda assim, para os objetivos propostos, o escopo definido mostrou-se adequado e coerente.
+
+Dessa forma, o trabalho cumpre seu papel como um MVP funcional de Engenharia de Dados, evidenciando tanto a aplicação prática dos conceitos estudados quanto a capacidade de transformar dados brutos em informações relevantes para a tomada de decisão.
