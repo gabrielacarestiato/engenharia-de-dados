@@ -115,7 +115,7 @@ O pipeline inicia com a ingestão do dataset original em formato CSV, armazenado
 
 Por fim, a carga na camada Gold consiste na geração de tabelas analíticas agregadas, diretamente alinhadas às perguntas de negócio propostas. Cada tabela Gold é persistida como Delta Table no Databricks, garantindo consistência, versionamento e confiabilidade no consumo analítico.
 
-Todas as etapas de carga utilizam operações nativas do Spark (write.format("delta").saveAsTable), assegurando escalabilidade e correta persistência dos dados no ambiente de nuvem.
+Todas as etapas de carga utilizam operações nativas do Spark `(write.format("delta").saveAsTable)`, assegurando escalabilidade e correta persistência dos dados no ambiente de nuvem.
 
 ------------------------------------
 
