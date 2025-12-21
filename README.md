@@ -33,6 +33,14 @@ Os dados utilizados neste projeto foram obtidos a partir do dataset “Player In
 
 ### Qualidade da Modelagem
 
+#### Camada Bronze — bronze.premierleague
+A camada Bronze armazena os dados brutos ingeridos diretamente do dataset original, mantendo a estrutura próxima à fonte e preservando todas as colunas disponíveis, com mínimas padronizações de nomenclatura.
+
+Papel da Bronze
+* Armazenar dados brutos
+* Manter fidelidade à fonte
+* Servir como histórico e reprocessamento
+
 quais tabelas existem
 o que muda da bronze → prata → ouro
 quais chaves, tipos e granularidade
