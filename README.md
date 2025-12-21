@@ -159,5 +159,5 @@ O cálculo do tempo médio geral de recuperação fornece uma visão consolidada
 **6. Times com maior número de jogadores lesionados**
 Alguns clubes concentram um maior número de jogadores lesionados, o que pode indicar diferenças em calendário, elenco ou estratégias de gestão física.
 
-**7. Relação entre tipo de lesão e tempo de retorno**
+**7. Relação entre tipo de lesão e tempo de retorno** 
 A análise dos tipos de lesão mostra que certas lesões apresentam tempos médios de recuperação significativamente maiores, reforçando a importância de distinguir o impacto de cada tipo de lesão.
