@@ -161,3 +161,61 @@ Alguns clubes concentram um maior número de jogadores lesionados, o que pode in
 
 **7. Relação entre tipo de lesão e tempo de retorno** 
 A análise dos tipos de lesão mostra que certas lesões apresentam tempos médios de recuperação significativamente maiores, reforçando a importância de distinguir o impacto de cada tipo de lesão.
+
+### Discussão dos Resultados
+
+**1. Frequência de lesões por temporada e time**
+* Tabela de Resultados
+A tabela abaixo apresenta a quantidade de lesões registradas por time em cada temporada analisada, entre 2019/20 e 2023/24.
+
+| Temporada | Time        | Nº de Lesões |
+| --------- | ----------- | ------------ |
+| 2019/20   | Arsenal     | 25           |
+| 2019/20   | Aston Villa | 11           |
+| 2019/20   | Burnley     | 22           |
+| 2019/20   | Everton     | 36           |
+| 2019/20   | Man United  | 24           |
+| 2019/20   | Newcastle   | 31           |
+| 2019/20   | Tottenham   | 21           |
+| 2020/21   | Arsenal     | 25           |
+| 2020/21   | Aston Villa | 8            |
+| 2020/21   | Burnley     | 26           |
+| 2020/21   | Everton     | 20           |
+| 2020/21   | Man United  | 20           |
+| 2020/21   | Newcastle   | 25           |
+| 2020/21   | Tottenham   | 17           |
+| 2021/22   | Arsenal     | 10           |
+| 2021/22   | Aston Villa | 9            |
+| 2021/22   | Brentford   | 6            |
+| 2021/22   | Burnley     | 13           |
+| 2021/22   | Everton     | 17           |
+| 2021/22   | Man United  | 36           |
+| 2021/22   | Newcastle   | 15           |
+| 2021/22   | Tottenham   | 23           |
+| 2022/23   | Arsenal     | 12           |
+| 2022/23   | Aston Villa | 10           |
+| 2022/23   | Brentford   | 7            |
+| 2022/23   | Everton     | 16           |
+| 2022/23   | Man United  | 21           |
+| 2022/23   | Newcastle   | 15           |
+| 2022/23   | Tottenham   | 15           |
+| 2023/24   | Arsenal     | 12           |
+| 2023/24   | Aston Villa | 21           |
+| 2023/24   | Brentford   | 21           |
+| 2023/24   | Burnley     | 9            |
+| 2023/24   | Everton     | 14           |
+| 2023/24   | Newcastle   | 34           |
+| 2023/24   | Tottenham   | 6            |
+
+* Análise do Gráfico
+O gráfico de linhas ilustra a evolução do número de lesões por time ao longo das temporadas, permitindo identificar padrões temporais e diferenças entre os clubes.
+
+**Pontos relevantes observados**
+
+* Alta variabilidade entre clubes: Times como Everton, Newcastle e Manchester United apresentam picos elevados de lesões em determinadas temporadas, enquanto outros, como Aston Villa e Brentford, mantêm números relativamente mais baixos.
+* Picos específicos por temporada:
+** O Everton apresenta um pico significativo na temporada 2019/20.
+** O Manchester United registra um aumento expressivo em 2021/22, destacando-se como o time com maior número de lesões nessa temporada.
+** O Newcastle apresenta crescimento acentuado em 2023/24, atingindo o maior valor observado no período.
+* Tendências de queda: Alguns clubes, como Arsenal e Tottenham, apresentam redução no número de lesões ao longo das temporadas, sugerindo possíveis melhorias em gestão física, elenco ou estratégias de rotação.
+* Impacto de contexto competitivo: As oscilações ao longo do tempo podem estar relacionadas a fatores como calendário mais intenso, mudanças no elenco, estilo de jogo ou participação em competições paralelas.
